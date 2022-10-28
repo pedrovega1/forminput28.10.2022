@@ -7,7 +7,7 @@
     <title>boot</title>
     <!-- CSS only -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-
+<link rel="stylesheet" href="css/main.css">
 </head>
 <!--  -->
 <body>
@@ -17,21 +17,25 @@
     <div class="form_group">
     <label for="login">
         login
+        <br>
         <input id="login" type="text" name="Login"  autocomplete="on">
-        <div id="emailHelp" class="form-text">Мы никогда никому не передадим ваши данные кому-то(шутка).</div>
+        <div id="emailHelp" class="form-text">Мы никогда никому не передадим ваши данные кому-то.</div>
     </label>
 </div>
 <div class="form_group">
     <label for="pass">pass
+        <br>
         <input id="pass" type="password" name="password">
     </label>
 </div>
-
+<br>
 <div class="form_group">
    <input type="submit" value="Send"> 
 </div>
+<hr class="line">
 </div>
 </form>
+
 <!-- POST передает данные в теле запроса -->
 <form action="https://mailthis.to/sabina.jangirova@nu.edu.kz" method="POST">
 <div class="container">

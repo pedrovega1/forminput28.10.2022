@@ -1,0 +1,8 @@
+body{
+    background: -webkit-linear-gradient(90deg, #1a3f69,#5076a1,#1a3f69);
+    background: linear-gradient(90deg, #1a3f69,#5076a1,#1a3f69);
+}
+
+hr.line{
+color: rgb(246, 255, 255) !important;
+}
