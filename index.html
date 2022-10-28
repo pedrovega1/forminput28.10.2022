@@ -13,10 +13,11 @@
 <body>
    <!-- get  пара-значение -->
 <form action ="" method="get">
+    <div class="container">
     <div class="form_group">
     <label for="login">
         login
-        <input id="login" type="text" name="Login"  autocomplete="on | off">
+        <input id="login" type="text" name="Login"  autocomplete="on">
         <div id="emailHelp" class="form-text">Мы никогда никому не передадим ваши данные кому-то(шутка).</div>
     </label>
 </div>
@@ -29,12 +30,15 @@
 <div class="form_group">
    <input type="submit" value="Send"> 
 </div>
+</div>
 </form>
 <!-- POST передает данные в теле запроса -->
 <form action="https://mailthis.to/sabina.jangirova@nu.edu.kz" method="POST">
+<div class="container">
     <input type="text" name="name" placeholder="Your name">
     <input type="email" name="_replyto" placeholder="Your email">
     <input type="submit" value="Send Email">
+</div>
 </form>
 <!-- <form>
     <div class="mb-3">
